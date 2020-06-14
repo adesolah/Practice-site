@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fried Rice with Suya</title>
+    <style>
+      .firstD {
+        border: 5px outset brown;
+        background-color: tan;
+        text-align: center;
+        padding: 0;
+        line-height: 60px;
+        font-size: 20px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .secD {
+        color: #632a0d;
+      }
+      .thirdD {
+        font-style: italic;
+      }
+      .meaning {
+        border: 5px outset brown;
+        background-color: tan;
+        text-align: center;
+        padding: 0;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .bothImg {
+        padding: 0;
+        border-radius: 5px;
+        box-shadow: 100px;
+        transition: 10px ease-in-out 4ms;
+      }
+      button {
+        border: 10px solid gray;
+        background-color: blue;
+        border-radius: 35px;
+        background: gray;
+        display: block;
+        margin: 50px auto;
+        color: black;
+        cursor: pointer;
+        padding: 16px 30px;
+        box-shadow: rgba(37, 39, 80, 0.9);
+      }
+      button:hover {
+        color: black;
+        border: 10px solid #1a64d6;
+        background: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="firstD">
+      <h1 class="secD">
+        FRIED RICE WITH SUYA
+      </h1>
+      <h2 class="thirdD">I promise you regret this</h2>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div class="meaning">
+      <h2>What is Fried Rice with Suya?</h2>
+      <hr />
+      <p>
+        <em>
+          <span style="color: whitesmoke; font-weight: bold;">
+            Nigerian Fried Rice
+          </span>
+          puts a spicy, flavorful spin on the traditional fried rice and is
+          appealing on its own or served with a variety of other African foods.
+          I love making fried rice at home because it is easy to put together
+          and with the money you could spend ordering out. You can make this
+          dish at home and everyone would love it -even the picky eaters.
+        </em>
+      </p>
+      <hr />
+      <img
+        class="bothImg"
+        src="https://nitrocdn.com/kAYhDANARZBYBuChUfNCjMuCDSNidQew/assets/static/optimized/wp-content/uploads/2014/05/fb4c00b46b49d689aa30975bf48bb668.IMG_6852.jpg "
+        width="300"
+      />
+      <hr />
+      <img
+        class="bothImg"
+        src="https://www.tasteofhome.com/wp-content/uploads/2019/12/Beef-Suya_EXPS_FT19_89779_F_1119_1-1-696x696.jpg"
+        width="300"
+      />
+      <hr />
+      <br />
+      <small>
+        Learn how to make:
+        <a
+          href="http://thefooddisciple.com/nigerian-fried-rice-with-oven-grilled-suya-chicken/ "
+          target="_blank"
+        >
+          Fried Rice</a
+        >
+        and
+        <a
+          href="https://www.tasteofhome.com/recipes/beef-suya/"
+          target="_blank"
+          S
+        >
+          Suya
+        </a>
+      </small>
+      <br />
+      <button>WANT TO KNOW MORE?</button>
+      <script>
+        function contactUs() {
+          let name = prompt("WHAT IS YOUR NAME?");
+          if (name.length) {
+            alert("HELLO, " + name + " WE WILL CONTACT YOU PROMPTLY!");
+          } else {
+            alert("SORRY WE CANNOT HELP YOU.");
+          }
+        }
+        let contactButton = document.querySelector("button");
+        contactButton.addEventListener("click", contactUs);
+      </script>
+      <br />
+    </div>
+  </body>
+</html>
